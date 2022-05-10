@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+
+    <link rel="stylesheet" href="style1.css">
+
+	<script src="javascript.js"></script>
+</head>
+
+<body>
+<div class="main">
+
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="page1.html">Home</a>
+		<a href="page2.html">Full Menu</a>
+		<a href="page3.html">About Us</a>
+		<a href="page4.html">Contact</a>
+	</div>
+
+	<div class="header">
+		<h1 id="up">Contact Us </h1>
+	</div>
+	<br>
+	<div style="padding:15px 20px">
+	<span id="bordering" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; more</span>
+	</div>
+	<br>
+
+<div class="row">
+  	<div class="leftcolumn">
+        <div class="card4">
+        <br><br>
+		<form>
+        	<label for="firstname">First Name: </label><br>
+        	<input type="text" id="firstname" name="first_name" size="25" required><br>
+        	<label for="lastname">Last Name: </label><br>
+        	<input type="text" id="lastname" name="last_name" size="25" required><br><br>
+        	<label for="phone">Phone Number: </label><br>
+        	<input type="text" id="phone" name="phone_number" placeholder="0512345678" pattern="[0-5]{2}[0-9]{8}" size="25"><br><br>
+        	<label for="email">Email:</label><br>
+        	<input type="email" id="email" name="email" placeholder="xxxx@xxxx.com" size="25"><br><br>
+			
+			<label for="reason">Reason: </label><br>
+			<select id="reason" name="reason">
+				<option value="Suggestions">Suggestions</option>
+				<option value="Complaints">Complaints</option>
+				<option value="Advertising">Advertising</option>
+			</select><br><br>
+			<label for="datefield">Date:</label>
+			<input type="date" id="datefield" name="date" required><br><br>
+
+			<textarea style="resize: none;" name="message" rows="15" cols="55" >
+				what is in your maind?
+			</textarea><br><br>
+
+			<label for="myfile">Select a file:</label>
+  			<input type="file" id="myfile" name="myfile"><br><br>
+			
+			<!-- <input type="submit" value="submit"> -->
+			<button onclick="feedback()">Submit</button>
+			<input type="reset">
+		</form>
+			<br>
+			<p id="demo"></p><br>
+		</div>
+    </div>
+
+  	<div class="rightcolumn">
+    	<div class="card2 button2">
+      		<h2>About us</h2>
+      		<p>We are a startup project placed in Saudi Arabia, we are diffrent in taste, quality and price $ </p>
+			<a href="page3.html" target="_self">About us</a>
+    	
+      		<h3>Our Menu:</h3>
+      		<div >
+				  <img class="imging2" src="menuPic/fnd_Menu-Thinkstock_s4x3.jpg" alt="Menu picture">
+			</div>
+			<a href="page2.html" target="_self">Full Menu</a>
+    	
+      		<h3>Contact Us:</h3>
+			<p>we will be happy to hear from you.</p>
+      		<a href="page4.html" target="_self">Contact Us</a>
+    	</div>
+ 	</div>
+</div>
+</div>
+</body>
+</html>

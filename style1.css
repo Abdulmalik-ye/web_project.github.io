@@ -1,0 +1,415 @@
+/* Abdulmalik - 411010428 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 7px;
+  background: #f1ececf5;
+}
+
+body.sty2{
+  font-family: Arial;
+  padding: 7px;
+  background-color: white;
+}
+
+h2.style{
+  text-align: center;
+  color:brown;
+}
+
+h4{
+  font-size: 20px;
+  color:rgb(66, 166, 169);
+  margin: 6px;
+  padding: 6px;
+}
+
+h5{
+  margin: 8px;
+  padding: 8px;
+  text-decoration:dotted;
+  font-size: 17px;
+}
+
+p{
+  margin: 8px;
+  padding: 8px;
+}
+
+/* header */
+.header{
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+}
+.header1 {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+.header h1 {
+  font-size: 50px;
+}
+.header1 h1{
+  font-size: 50px;
+}
+  
+/* university of tabuk picture*/
+ img.logo{
+  position:absolute;
+  top: 25px;
+  left: 15px;
+  width:200px;
+  height: 200px;
+}
+
+/* left column*/
+div.leftcolumn{   
+  float: left;
+  width: 78%;
+  padding: 5px;
+}
+
+/* right column */
+div.rightcolumn {
+  float: right;
+  width: 22%;
+  background-color: #f1ececf5;
+  padding-left: 20px;
+  position: -webkit- sticky;
+	position: sticky;
+	top: 0;
+}
+div.rightcolumn2{
+  float: right;
+  width: 22%;
+  background-color: white;
+  padding-left: 20px;
+  position: -webkit- sticky;
+	position: sticky;
+	top: 0;
+}
+
+div.card1 {
+  background-color: #f1ececf5;
+  padding: 13px;
+  margin-top: 10px;
+  
+}
+
+div.card2{
+  background-color: rgb(195, 177, 161);
+  padding: 13px;
+  margin-top: 10px;
+}
+
+div.card3 {
+  background-color: white;
+  padding: 13px;
+  margin-top: 10px;
+  
+}
+div.card4{
+  background-color: white;
+  padding: 13px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Footer 
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}*/
+
+.column{
+  float: left;
+  width: 25%;
+  display: inline;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* link as button (2)*/
+.button2 a:link, a:visited {
+  background-color:rgb(169, 151, 105) ;
+  color: white;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.button2 a:hover, a:active {
+  background-color: rgb(211, 198, 165);
+  cursor:pointer;
+}
+
+div.ss1{
+  padding: 12px 15px;
+  margin: 10px 80px;
+}
+
+/* pictures */
+.imging{
+  margin-left: auto;
+  margin-right: auto;
+  width:85%;
+	height:500px;
+}
+/* menu picture */
+.imging2{
+  margin-left: auto;
+  margin-right: auto;
+  width:95%;
+	height:188px;
+}
+.imging3{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+	height:550px;
+}
+
+/* menu picture */
+.imging4{
+  width: 100%;
+  height: 200px;
+}
+
+
+/* video 1*/
+#v1{
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width:"100%";
+  height:"100%";
+}
+
+
+/* button up */
+.up a:hover{
+  background-color: rgb(214, 183, 243);
+  
+}
+
+/**-------------------------**/
+div.leftcolumn2{
+  float: left;
+  width: 75%;
+}
+
+img.gallery1{
+  margin: auto;
+  margin-right: auto  ;
+}
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 31%;
+
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  float: left;
+  width: 100%;
+  height: auto;
+  
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.border{
+  border-left: 6px solid black;
+}
+
+/***--------------------***/
+.tables {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+.tables td, #tables th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.tables td{
+  width: 50px;
+  height: 70px;
+}
+.tables tr:hover {
+  background-color: rgb(235, 229, 229);
+  cursor: pointer;
+}
+.tables th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #a152fb;
+  color: white;
+  height: 80px;
+  width: 90px;
+}
+/* tooltip  */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+/****------------------****/
+input[type=text],[type=email], select {
+  width: 42%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(233, 233, 233);
+}
+input[type=date]{
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(233, 233, 233);
+
+}
+button {
+  width: 40%;
+  background-color: #60c4e9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset] {
+  width: 40%;
+  background-color: #60c4e9;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #91dcf7;
+}
+input[type=reset]:hover{
+  background-color: #91dcf7;
+}
+
+div.st4 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+#bordering{
+  border-left: 7px solid rgb(160, 175, 126);
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+
+/**---------------------**/
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
